@@ -9,7 +9,6 @@ signal upgrade_item()
 signal inventory_group_content_changed( groups )
 
 # Interactables
-signal item_picked( item, sender )
 signal crafting_opened( crafting_list_id )
 signal crafting_out_of_range()
 
@@ -18,6 +17,8 @@ signal ui_scale_changed( value )
 
 # Player
 signal player_life_changed( life, max_life )
-
 # listen to
 signal heal_player( health_points )
+
+# Save Manager
+signal saving_game()

@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://inventory/inventory_player.gd" type="Script" id=1]
 [ext_resource path="res://inventory/equipment.tscn" type="PackedScene" id=2]
+[ext_resource path="res://data/resources/player_data.tres" type="Resource" id=3]
 [ext_resource path="res://ui/window.tscn" type="PackedScene" id=6]
 [ext_resource path="res://inventory/inventory.tscn" type="PackedScene" id=13]
 
@@ -10,6 +11,7 @@ script = ExtResource( 1 )
 inventory_right = NodePath("inventory_container/inventory_right")
 inventory_left = NodePath("inventory_container/inventory_left")
 equipment = NodePath("inventory_container/equipment")
+player_data = ExtResource( 3 )
 
 [node name="title" parent="." index="0"]
 margin_bottom = 163.0

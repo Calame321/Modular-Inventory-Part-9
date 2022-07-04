@@ -99,6 +99,10 @@
 			"stat": "DEFENCE",
 			"minimum": 1,
 			"maximum": 2
+		},{
+			"stat": "DEXTERITY",
+			"minimum": 3,
+			"maximum": 6
 		}]
 	},
 	"chestplate": {
@@ -162,9 +166,9 @@
 		"unique": {
 			"name": "Crystal Orb of Gortyk",
 			"stats": [{
-				"stat": "INTELLIGENCE",
-				"minimum": 25,
-				"maximum": 25
+				"stat": "ALL_STATS",
+				"minimum": 10,
+				"maximum": 20
 			},{
 				"stat": "REGENERATION",
 				"minimum": 5,

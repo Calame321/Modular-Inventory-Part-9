@@ -1,7 +1,7 @@
 class_name Resource_Manager extends Node
 
-const STAT_PATH = "res://items/data/stats.json"
-const RECIPE_PATH = "res://items/data/recipes.json"
+const STAT_PATH = "res://data/json/stats.json"
+const RECIPE_PATH = "res://data/json/recipes.json"
 
 var sprites = {
 	"chestplate": preload( "res://items/sprites/chestplate.png" ),
@@ -40,7 +40,9 @@ var tscn = {
 	"cooldown": preload( "res://items/usable/cooldown.tscn" ),
 	"quantity": preload( "res://items/quantity.tscn" ),
 	"crafting_option": preload( "res://ui/crafting_option.tscn" ),
-	"item_quantity": preload( "res://ui/item_quantity.tscn" )
+	"item_quantity": preload( "res://ui/item_quantity.tscn" ),
+	"inventory_slot": preload( "res://inventory/inventory_slot.tscn" ),
+	"inventory": preload( "res://inventory/inventory.tscn" )
 }
 
 var stat_info = {}
